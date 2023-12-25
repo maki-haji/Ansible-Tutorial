@@ -1,0 +1,7 @@
+---
+- name: testing connectivity
+  remote_user: maki
+  hosts: all
+  tasks:
+    - name: ping
+      ping:

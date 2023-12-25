@@ -1,7 +1,0 @@
----
-- name: test connectivity
-  hosts: all
-  tasks:
-    - name: testing
-      ping:
-      
